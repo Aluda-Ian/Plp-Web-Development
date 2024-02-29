@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        header, section, nav, footer {
+            margin: 20px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            padding: 5px;
+            margin: 5px 0;
+        }
+        #home img{
+             height: 50vh;
+             width: 100%;
+        }
+        #gallery{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #gallery img{
+           width: 95%;
+           height: 30vh;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #menu ul{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        #menu img{
+            height: 20vh;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to our Website!</h1>
+        <p>Explore the world of technology, nature, and delicious food.</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#menu">Menu</a></li>
+        </ul>
+    </nav>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Discover the latest in technology.</p>
+        <p style="color: blue;">You can now gerate images with AI, try microsoft copilot</p>
+        <a href="https://www.bing.com/search?form=NTPCHB&q=Bing+AI&showconv=1" target="_blank">
+            <img src="_973a200f-b95a-4768-b848-70cc10e2aa3b.jpeg" alt="Technology Image">
+        </a>
+    </section>
+
+    <section >
+        <h2>Gallery</h2>
+        <p>Explore the beauty of nature.</p>
+        <div id="gallery">
+            <a href="https://www.nature.com/" target="_blank">
+                <img src="beautiful-scenery-rock-formations-by-sea-queens-bath-kauai-hawaii-sunset.jpg" alt="Nature Image 1">
+            </a>
+            <a href="https://www.nature.com/" target="_blank">
+                <img src="beautiful-shot-tree-savanna-plains-with-blue-sky.jpg" alt="Nature Image 2">
+            </a>
+            <a href="https://www.nature.com/" target="_blank">
+                <img src="cascade-boat-clean-china-natural-rural.jpg" alt="Nature Image 3">
+            </a>
+        </div>
+    </section>
+
+    <section id="menu">
+        <h2>Menu</h2>
+        <p>Delicious food items for you to savor.</p>
+        <ul>
+            
+                <a href="https://www.nature.com/" target="_blank">
+                    <img src="penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg" alt="Food Image 1"> Chips
+                </a>
+            
+            
+                <a href="https://www.nature.com/" target="_blank">
+                    <img src="vegetables-set-left-black-slate (1).jpg" alt="Food Image 2"> Salad
+                </a>
+            
+        
+                <a href="https://www.nature.com/" target="_blank">
+                    <img src="closeup-roasted-meat-with-sauce-vegetables-fries-plate-table.jpg" alt="Food Image 3"> Ugali
+                </a>
+        
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Image Links</p>
+    </footer>
+
+</body>
+</html>
